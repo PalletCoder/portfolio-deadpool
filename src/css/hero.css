@@ -21,11 +21,19 @@
     width: 100%;
     max-width: 1200px;
     padding: 0 20px;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 0 15px;
+    }
 }
 
 @media (max-width: 480px) {
     .hero-content {
-        padding: 0 10px;
+        padding: 0;
+        width: 100%;
     }
 }
 
@@ -41,32 +49,36 @@
     grid-area: 1 / 1;
     z-index: 1;
     box-shadow: 0 0 80px rgba(192, 0, 0, 0.5);
+    justify-self: center;
+    align-self: center;
 }
 
 @media (max-width: 768px) {
     .red-circle {
-        width: 55vw;
-        height: 55vw;
-        min-width: 240px;
-        min-height: 240px;
+        width: 60vw;
+        height: 60vw;
+        min-width: auto;
+        min-height: auto;
+        max-width: 400px;
+        max-height: 400px;
     }
 }
 
 @media (max-width: 480px) {
     .red-circle {
-        width: 65vw;
-        height: 65vw;
-        min-width: 200px;
-        min-height: 200px;
+        width: 70vw;
+        height: 70vw;
+        max-width: 300px;
+        max-height: 300px;
     }
 }
 
 @media (max-width: 360px) {
     .red-circle {
-        width: 70vw;
-        height: 70vw;
-        min-width: 180px;
-        min-height: 180px;
+        width: 75vw;
+        height: 75vw;
+        max-width: 250px;
+        max-height: 250px;
     }
 }
 
@@ -80,19 +92,27 @@
     grid-area: 1 / 1;
     z-index: 2;
     text-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    justify-self: center;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .movie-title {
+        font-size: clamp(4rem, 16vw, 10rem);
+    }
 }
 
 @media (max-width: 480px) {
     .movie-title {
-        font-size: clamp(3.5rem, 15vw, 6rem);
-        letter-spacing: clamp(3px, 1vw, 5px);
+        font-size: clamp(3rem, 14vw, 6rem);
+        letter-spacing: clamp(2px, 1vw, 4px);
     }
 }
 
 @media (max-width: 360px) {
     .movie-title {
-        font-size: clamp(3rem, 13vw, 5rem);
-        letter-spacing: 2px;
+        font-size: clamp(2.5rem, 12vw, 5rem);
+        letter-spacing: 1px;
     }
 }
 
@@ -107,32 +127,37 @@
     object-fit: contain;
     margin-bottom: -15%; 
     filter: drop-shadow(0 0 70px rgba(21, 21, 21, 0.7));
+    justify-self: center;
+    align-self: center;
 }
 
 @media (max-width: 768px) {
     .deadpool-image {
-        width: 90vw; 
-        min-width: 300px;
+        width: 85vw; 
+        min-width: auto;
+        max-width: 600px;
         margin-bottom: -8%;
-        max-height: 85vh;
+        max-height: 80vh;
     }
 }
 
 @media (max-width: 480px) {
     .deadpool-image {
-        width: 95vw;
-        min-width: 250px;
+        width: 90vw;
+        min-width: auto;
+        max-width: 450px;
         margin-bottom: -5%;
-        max-height: 75vh;
+        max-height: 70vh;
     }
 }
 
 @media (max-width: 360px) {
     .deadpool-image {
-        width: 100vw;
-        min-width: 220px;
+        width: 95vw;
+        min-width: auto;
+        max-width: 350px;
         margin-bottom: -3%;
-        max-height: 70vh;
+        max-height: 65vh;
     }
 }
 
