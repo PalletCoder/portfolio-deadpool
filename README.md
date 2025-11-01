@@ -61,4 +61,4 @@ src/
 - **Instagram**: [https://www.instagram.com/i.m.fayaz/](https://www.instagram.com/i.m.fayaz/)
 
 ## License
-Yeh project open-source hai aur MIT license ke under release kiya gaya hai.
+Yeh project open-source hai
