@@ -9,22 +9,9 @@
     text-align: center;
     overflow: hidden;
     padding-top: 80px;
-    min-height: 100vh;
+   
 }
 
-@media (max-width: 768px) {
-    .hero-section {
-        padding-top: 60px;
-        min-height: 90vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        padding-top: 50px;
-        min-height: 85vh;
-    }
-}
 
 
 .hero-content {
