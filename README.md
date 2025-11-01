@@ -1,5 +1,5 @@
 # Deadpool Developer Portfolio
-mera naam fayaz khan hai  , i will be writting this readme in roman hinglish(hindi + english) , just to express more about the project 
+mera naam fayaz khan hai  , i will be writing this readme in roman hinglish(hindi + english) , just to express more about the project 
 
 ## Project Background
 mujhe na ek potfolio banana tha pehle se , mein ek pe alreadly kaam kar rha tha , than i realized ke in my first year i did small small projects but never felt confidence enough to publish kyuki mere paas kabhi potfolio website nhi tha , issliye i made this for them who are like me  , taaki vho aapne first year se he project showcase karre , log jab build in public karte hai tho baaki bhi motivate hote hai ,
