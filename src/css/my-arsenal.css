@@ -1,0 +1,32 @@
+.skills-carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 100px; 
+}
+
+.skills-grid {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+.skill-item {
+    background: #111;
+    border: 1px solid #222;
+    padding: 20px 30px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ccc;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+}
+
+.skill-item:hover {
+    background-color: #c00000;
+    color: #fff;
+    border-color: #c00000;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(192, 0, 0, 0.2);
+}

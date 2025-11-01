@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "title": "Techyon 2025",
+      "imgA": "/techyon1.png",
+      "imgB": "/techyon2.png"
+    },
+    {
+      "title": "GTA 6",
+      "imgA": "/gta1.png",
+      "imgB": "/gta2.png"
+    },
+    {
+      "title": "GTA 5",
+      "imgA": "/gta1.png",
+      "imgB": "/gta2.png"
+    },
+    {
+      "title": "BuilderX",
+      "imgA": "/builder1.png",
+      "imgB": "/builder2.png"
+    },
+    {
+      "title": "BuilderY",
+      "imgA": "/builder1.png",
+      "imgB": "/builder2.png"
+    }
+  ],
+  "services": [
+    {
+      "icon": "fas fa-code",
+      "title": "Web Development",
+      "description": "Building responsive, high-performance websites with modern frameworks and clean code."
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "title": "UI/UX Design",
+      "description": "Crafting beautiful, intuitive interfaces that enhance user experience and engagement."
+    },
+    {
+      "icon": "fas fa-database",
+      "title": "Backend Solutions",
+      "description": "Developing scalable APIs and databases with Node.js, Python, and modern architectures."
+    }
+  ],
+  "skills": [
+    "JavaScript (ES6+)",
+    "React",
+    "Node.js",
+    "CSS",
+    "C / C++ / Java" ,
+    "Tailwind CSS",
+    "HTML5",
+    "Threejs",
+    "GSAP",
+    "Figma",
+    "Firebase",
+    "Git / GitHub",
+    "MongoDB",
+    "SQL / NoSQL"
+  ]
+}

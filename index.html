@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    
+    <link rel="stylesheet" href="src/css/main.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <script id="vertexShader" type="x-shader/x-vertex"></script>
+    <script id="fragmentShader" type="x-shader/x-fragment"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">DEADPOOL</div>
+        <ul class="navbar-menu">
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="site-wrapper">
+
+        <main class="hero-section" id="home">
+            <div class="hero-content">
+                <div class="red-circle"></div>
+                <h1 class="movie-title">DEADPOOL</h1>
+                <img 
+                    src="/deadpool.png" 
+                    alt="Deadpool with arms crossed" 
+                    class="deadpool-image"
+                >
+            </div>
+            <div class="bottom-fade">
+                <img src="/gradient.svg" alt="faded gradient">
+            </div>
+        </main>
+
+<section class="about-section" id="about-section">
+    <div class="about-container">
+        
+        <div class="about-content">
+          
+            <p class="about-description">
+                A creative developer specializing in modern web experiences.
+            </p>
+        </div>
+        
+        <div class="about-actions">
+            <a href="#footer-bottom" class="contact-btn">
+                <span>CONTACT ME &rarr;</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+        <section class="content-section projects-section" id="work">
+            <h2 class="section-title">SELECTED WORK</h2>
+            
+            <div id="carousel-container" class="carousel-container">
+                </div>
+        </section>
+
+        <section class="content-section services-section" id="services">
+            <div class="services-container">
+                <h2 class="section-title services-title">MY SERVICES</h2>
+                
+                <div class="services-grid"></div>
+            </div>
+        </section>
+
+        <section class="content-section skills-section" id="skills">
+            <h2 class="section-title">MY ARSENAL</h2>
+            <div class="skills-carousel">
+                <div class="skills-grid"></div>
+            </div>
+        </section>
+
+        <footer id="animated-footer">
+            <div class="footer-container">
+             
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <h3 class="footer-logo">DEADPOOL</h3>
+                        <p class="footer-tagline">Breaking the fourth wall of web development</p>
+                    </div>
+                    
+                    <div class="footer-social">
+                        <h4 class="social-title">Follow Me</h4>
+                        <div class="social-links">
+                            <a href="#" aria-label="GitHub" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="www.linkedin.com/in/fayaz-khan-b26a19251" aria-label="LinkedIn" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://x.com/PalletCoder" aria-label="Twitter" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://codepen.io/PalletCoder" aria-label="CodePen" class="social-link">
+                                <i class="fab fa-codepen"></i>
+                            </a>
+                             <a href="https://www.instagram.com/i.m.fayaz/" aria-label="Instagram" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+        
+                <div id="footer-bottom" class="footer-bottom">
+                    <div class="footer-divider"></div>
+                </div>
+            </div>
+        </footer>
+        </div>
+
+    <script type="module" src="src/js/data.js"></script>
+    <script type="module" src="src/js/main.js"></script> 
+    <script type="module" src="src/js/render.js"></script>
+</body>
+</html>

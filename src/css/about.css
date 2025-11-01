@@ -1,0 +1,129 @@
+
+.about-section {
+  
+    padding: 40px 60px;
+    background: #0a0a0a;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    border-top: 2px solid #790000 ;
+}
+
+.about-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    
+   
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+}
+
+
+
+.about-description {
+   
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin: 0;
+    max-width: 450px; 
+}
+
+.about-callout {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #b0b0b0; 
+    margin: 0;
+}
+
+
+.about-actions {
+    width: 100%; 
+}
+
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    padding: 15px 30px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    width: 100%; 
+    
+   
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    
+  
+    overflow: visible;
+    box-shadow: none;
+}
+
+.contact-btn::before,
+.contact-btn::after {
+    display: none;
+}
+
+.contact-btn:hover {
+    background: #fff;
+    color: #0a0a0a;
+    transform: translateY(-3px); 
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.contact-btn:active {
+    transform: translateY(-1px);
+}
+
+.contact-btn i {
+   display: none;
+}
+
+.contact-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .about-section {
+        padding: 50px 80px; 
+    }
+    
+    .about-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .about-content {
+        align-items: flex-start; 
+    }
+    
+    .about-actions {
+        width: auto; 
+    }
+    
+    .contact-btn {
+        width: auto; 
+    }
+}

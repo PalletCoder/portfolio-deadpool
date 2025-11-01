@@ -1,0 +1,88 @@
+
+.hero-section {
+    position: relative;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 80px; 
+}
+
+
+.hero-content {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.red-circle {
+    width: 45vw;
+    height: 45vw;
+    max-width: 550px;
+    max-height: 550px;
+    min-width: 280px; 
+    min-height: 280px;
+    background: radial-gradient(circle, #c00000 50%, #8b0000 100%);
+    border-radius: 50%;
+    grid-area: 1 / 1;
+    z-index: 1;
+    box-shadow: 0 0 80px rgba(192, 0, 0, 0.5);
+}
+
+
+.movie-title {
+    font-family: 'Anton', sans-serif;
+    font-size: clamp(6rem, 18vw, 20rem);
+    letter-spacing: clamp(5px, 1.5vw, 10px);
+    line-height: 0.9;
+    color: #f5f5f5;
+    grid-area: 1 / 1;
+    z-index: 2;
+    text-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+}
+
+.deadpool-image {
+    grid-area: 1 / 1;
+    z-index: 3;
+    width: 75vw; 
+    max-width: 900px; 
+    min-width: 400px; 
+    height: auto; 
+    max-height: 90vh; 
+    object-fit: contain;
+    margin-bottom: -15%; 
+    filter: drop-shadow(0 0 70px rgba(21, 21, 21, 0.7));
+}
+
+@media (max-width: 768px) {
+    .deadpool-image {
+        width: 90vw; 
+        min-width: 300px;
+        margin-bottom: -5%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .deadpool-image {
+        min-width: 280px;
+        margin-bottom: -2%;
+    }
+}
+
+.bottom-fade {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    pointer-events: none;
+}
+
+.bottom-fade img {
+    width: 100%;
+}
