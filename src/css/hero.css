@@ -125,7 +125,7 @@
     height: auto; 
     max-height: 90vh; 
     object-fit: contain;
-    margin-bottom: -15%; 
+    margin-bottom: -8%; 
     filter: drop-shadow(0 0 70px rgba(21, 21, 21, 0.7));
     justify-self: center;
     align-self: center;
@@ -136,7 +136,7 @@
         width: 85vw; 
         min-width: auto;
         max-width: 600px;
-        margin-bottom: -8%;
+        margin-bottom: -15%;
         max-height: 80vh;
     }
 }
@@ -146,7 +146,7 @@
         width: 90vw;
         min-width: auto;
         max-width: 450px;
-        margin-bottom: -5%;
+        margin-bottom: -15%;
         max-height: 70vh;
     }
 }
@@ -156,7 +156,7 @@
         width: 95vw;
         min-width: auto;
         max-width: 350px;
-        margin-bottom: -3%;
+        margin-bottom: -13%;
         max-height: 65vh;
     }
 }
