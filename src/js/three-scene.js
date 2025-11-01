@@ -2,6 +2,8 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { gsap } from 'gsap';
 import { projects } from "./data.js";
+import vertexShader from '../glsl/vertex.glsl?raw';
+import fragmentShader from '../glsl/fragment.glsl?raw';
 
 // Scene, camera, renderer, controls, aur container ke liye variables
 let scene, camera, renderer, controls, container;
@@ -18,10 +20,7 @@ const animationProps = { progress: 0.0 };
 // Fir har triangle ko alag alag delay se animate karte hain, jisse shatter effect banta hai
 async function createShatterMesh(texture, animationPhase, planeWidth, planeHeight) {
 
-    // Shader code fetch kar rahe hain
-    const vertexShader = await fetch('/src/glsl/vertex.glsl').then(res => res.text());
-    const fragmentShader = await fetch('/src/glsl/fragment.glsl').then(res => res.text());
-
+ 
     const segmentsX = 80; 
     const segmentsY = 50;
     const spreadZ = -3.0; 
